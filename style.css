@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-margin {
+  max-width: 85%;
+  margin: 0 auto;
+}
+header {
+  background: rgb(245, 124, 80);
+}
+.header-part {
+  height: 70px;
+}
+.logo-part a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.logo-part img {
+  width: 50px;
+}
+.logo-part {
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+}
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-part,
+.align-part {
+  display: flex;
+  align-items: center;
+}
+.navbar-part ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar-part ul li {
+  list-style: none;
+  padding-left: 30px;
+}
+.navbar-part ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+}
+.rightside-content img {
+  width: 80%;
+}
+.side-space {
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+.leftside-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+}
+.leftside-content h3 {
+  font-size: 1.7rem;
+}
+.primary-btn {
+  outline: none;
+  border: none;
+  background: #fff;
+  padding: 10px 20px;
+  color: orangered;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px white;
+}
+.color-1 {
+  color: #fff;
+}
+.display-part {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(245, 124, 80),
+    rgb(238, 22, 22)
+  );
+}
+.svg-1 {
+  margin-top: -90px;
+}
+.service-cart {
+  height: 230px;
+
+  border-radius: 10px;
+}
